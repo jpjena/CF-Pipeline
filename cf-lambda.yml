@@ -8,9 +8,9 @@ Resources:
       Handler: index.handler
       Architectures:
         - x86_64
-      #Code:
-        #S3Bucket: my.lambda.deployment.bucket
-        #S3Key: main.zip
+      Code:
+        S3Bucket: my.lambda.deployment.bucket
+        S3Key: main.zip
       MemorySize: 128
       Role: arn:aws:iam::876053156279:role/lambda-ex
       Runtime: python3.8
